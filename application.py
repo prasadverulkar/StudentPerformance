@@ -37,5 +37,5 @@ def predict_datapoint():
     
 
 if __name__=="__main__":
-    application.run(host="0.0.0.0", port=8000) # 127.0.0.1 By default Port-> 5000
+    app.run(host="0.0.0.0", port=8000) # 127.0.0.1 By default Port-> 5000
     # Don't keep debug=True option while deployment.
